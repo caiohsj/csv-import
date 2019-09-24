@@ -1,0 +1,23 @@
+{
+	"name": "caiohsj/csv",
+	"description": "Importando dados de um arquivo csv",
+	"minimum-stability": "stable",
+	"license": "MIT",
+	"authors": [
+		{
+		"name": "Caio Henrique",
+		"email": "caiohenrique.programador@gmail.com"
+		}
+	],
+	"config": {
+		"vendor-dir": "vendor"
+	},
+	"autoload": {
+		"psr-4": {
+			"Source\\": "source/"
+		}
+	},
+	"require": {
+		"coffeecode/router": "1.0"
+	}
+}
